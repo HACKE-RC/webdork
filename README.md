@@ -1,47 +1,111 @@
+<h1 align="center">
+  <br>
+  <a href="https://github.com/HACKE-RC/webdork"><img src="https://i.ibb.co/cLpRGqV/logo-transparent.png" alt="webdork"></a>
+  <br>
+  WebDork v1.0
+  <br>
+</h1>
+
+<p align="center">A open-source tool to find publicly avaible sensitive information about Company's/Organisations!</p>
+
 # WebDork
  A Python tool to automate some dorking stuff to find information disclosures.
- Sugesstions and issues are welcome because i know codes can never be perfect.
+ Suggestions and issues are welcome because I know codes can never be perfect.
 
-### Note: Please do not use this tool for blackhat hacking purposes. I am not resposible for any damage caused by this tool.
+## Note:
+> ## As a user of this tool you agree this terms:
+> **I will not use it for any blackhat/unethical work**  
+> **I will not disclose any information found by this tool**
 
+**Not all results found by this tool are sensitive information. If you find any information using this tool you must verify it by yourself and check whether the information can really cause any major/minor harm to A company.**
 
-### How to install?
-This command is for Debian/Linux Based Shells.
+### Example finds:
+- Backend related information.
+- Company's/Orgnisation's future/internal plans/mindmaps.
+- Internal tools.
+
+## Compatibility
+Check your Python version by typing in
 ```bash
-git clone https://github.com/HACKE-RC/WebDork
-cd WebDork
-chmod +x *
-sudo setup.py
+$ python --version
 ```
-For termux:
+If you get the following
 ```bash
-git clone https://github.com/HACKE-RC/WebDork
-cd WebDork
-chmod +x *
-bash termux-setup.py
+Python 3.9.0
+```
+or any version greater than or equal to 3.9, this script has been tested and confirmed to be supported.
+
+## Installion
+
+### For termux
+```bash
+pkg install git -y 
+pkg install python -y 
+git clone https://github.com/HACKE-RC/webdork
+cd webdork
+python termux-setup.py
 ```
 
-After running setup.py you can simply type webdork -h to see the help menu.
+### For iSH
+```bash
+apk add git
+apk add python3
+apk add py3-pip
+git clone https://github.com/HACKE-RC/webdork
+cd webdork
+python setup.py
+```
 
-If you get any error while installing the tool you can create an issue or message me at twitter.com/coder_rc or If you are not able to run it after running the setup.py you can simply run ```sudo setup.py``` again to repair it.
+### For Debian-based GNU/Linux distributions
+```bash
+git clone https://github.com/HACKE-RC/webdork
+cd webdork
+sudo python3 setup.py
+```
 
-
-### Requirements:
-1. Python 3.x.x or greater.
-2. sh based shell(Works fine in WSL, WSL2 and termux).
-
-## How to use?
-Just run the following command to see the help menu.
+## Usage:
+**Help menu of the tool**
 ```bash
 webdork -h
+usage: main.py [-h] -cn Company name [-bw] [--show] [-o Output] [-v] [-s] [--no-save-output]
+
+A python tool to automatically dork on a given company\'s name.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -cn Company name, --company-name Company name
+                        Name of the company
+  -bw, --browser        Search the dorks in browser.
+  --show                Print results from the dorks.
+  -o Output             Output filename(default is dorkresults.txt).
+  -v, --verbose         Turn verbose mode on.
+  -s, --silent          Just save the results without printing anything.
+  --no-save-output      Don\'t save the output in file.
 ```
-Example: Finding information diclosures in Trivago Company.
+
+### Example usage:
 ```bash
-webdork -cn Trivago -v --show -bw -o out.txt
+webdork -cn Hackerone --bw --show -v -o output.txt
 ```
 
-### Setup
-[![asciicast](https://asciinema.org/a/BX9KgmIZ9cH93oa5D3e2rZ6fl.svg)](https://asciinema.org/a/BX9KgmIZ9cH93oa5D3e2rZ6fl)
+## Arguments :
+> Company/Organisation name to search for : -cn
+> Open the dorks in browser : -bw, --browser
+> Show dork results in terminal : --show
+> Output filename : -o
+> Better output : -v, --verbose
+> Directly save the results without printing anything : -s, --silent
+> Do not save the result in any file : --no-save-output
 
+### Shoutout :
+> (Ahsan khan)[https://twitter.com/hunter0x7] for (this tweet)[https://twitter.com/hunter0x7/status/1334818003179933696?s=20].
+> (TheSpeedX)[https://twitter.com/The_SpeedX] for writing docs of Tbomb in such a amazing way!. I copied some stuff from his docs about TBomb.
+> (Resethacker)[https://linktr.ee/RESETHACKER]
 
-#### Made with <3 by HACKE-RC commonly known as RC.
+**If you like my work consider contacting me on Twitter @coder_rc for donation related information.**
+
+## Demonstrative Video:
+
+- 
+
+**Made with so much debugging by (RC)[https://twitter.com/coder_rc]**
