@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/HACKE-RC/webdork"><img src="https://i.ibb.co/cLpRGqV/logo-transparent.png" alt="webdork"></a>
+  <a href="https://github.com/HACKE-RC/webdork"><img src="https://i.ibb.co/37GWyGL/logo.png" alt="webdork"></a>
   <br>
   WebDork v1.0
   <br>
