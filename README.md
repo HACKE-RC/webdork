@@ -89,13 +89,13 @@ webdork -cn Hackerone --bw --show -v -o output.txt
 ```
 
 ## Arguments :
-> Company/Organisation name to search for : -cn
-> Open the dorks in browser : -bw, --browser
-> Show dork results in terminal : --show
-> Output filename : -o
-> Better output : -v, --verbose
-> Directly save the results without printing anything : -s, --silent
-> Do not save the result in any file : --no-save-output
+- Company/Organisation name to search for : -cn
+- Open the dorks in browser : -bw, --browser
+- Show dork results in terminal : --show
+- Output filename : -o
+- Better output : -v, --verbose
+- Directly save the results without printing anything : -s, --silent
+- Do not save the result in any file : --no-save-output
 
 ### Shoutout :
 > (Ahsan khan)[https://twitter.com/hunter0x7] for (this tweet)[https://twitter.com/hunter0x7/status/1334818003179933696?s=20].
