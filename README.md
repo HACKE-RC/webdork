@@ -2,7 +2,7 @@
   <br>
   <a href="https://github.com/HACKE-RC/webdork"><img src="https://beeimg.com/images/l09057016821.png" alt="webdork" width="300" height="280"></a>
   <br>
-  WebDork v1.0
+  WebDork v1.0.1
   <br>
 </h1>
 
