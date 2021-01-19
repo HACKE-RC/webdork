@@ -106,6 +106,6 @@ webdork -cn Hackerone --bw --show -v -o output.txt
 
 ## Demonstrative Video:
 
-- 
+- https://youtu.be/JCReY9O5oTk
 
 **Made with so much debugging by [RC](https://twitter.com/coder_rc)**
