@@ -98,9 +98,9 @@ webdork -cn Hackerone --bw --show -v -o output.txt
 - Do not save the result in any file : --no-save-output
 
 ### Shoutout :
-> [Ahsan khan](https://twitter.com/hunter0x7) for (this tweet)[https://twitter.com/hunter0x7/status/1334818003179933696?s=20].
-> (TheSpeedX)[https://twitter.com/The_SpeedX] for writing docs of Tbomb in such a amazing way!. I copied some stuff from his docs about TBomb.
-> (Resethacker)[https://linktr.ee/RESETHACKER]
+- [Ahsan khan](https://twitter.com/hunter0x7) for (this tweet)[https://twitter.com/hunter0x7/status/1334818003179933696?s=20].
+- [TheSpeedX](https://twitter.com/The_SpeedX) for writing docs of Tbomb in such a amazing way!. I copied some stuff from his docs about TBomb.
+- [Resethacker](https://linktr.ee/RESETHACKER)
 
 **If you like my work consider contacting me on Twitter @coder_rc for donation related information.**
 
