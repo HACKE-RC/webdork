@@ -102,6 +102,7 @@ webdork -cn Hackerone --bw --show -v -o output.txt
 - [TheSpeedX](https://twitter.com/The_SpeedX) for writing docs of Tbomb in such a amazing way!. I copied some stuff from his docs about TBomb.
 - [Resethacker!](https://linktr.ee/RESETHACKER)
 - [aks1337](https://github.com/aksl337) for pull request.
+- [Akash Chhabra](https://github.com/hackingguy) for pull request.
 
 **If you like my work consider contacting me on Twitter @coder_rc for donation related information.**
 
