@@ -1,6 +1,6 @@
 from os import system
 try:
-        import googlesearch
+    import bs4, requests
 except:
     print("[i] Installing requirements.txt... [i]")
     system("pip3 install -r requirements.txt")
