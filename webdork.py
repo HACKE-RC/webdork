@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # Author : HACKE-RC commonly known as RC;
 # Description : WebDork by RC - A python tool some google dorking stuff to find information disclosures.
 # Developer contact: @coder_rc on twitter. You can request new feature by tagging me on any of your tweet.

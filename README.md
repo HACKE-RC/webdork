@@ -6,7 +6,7 @@
   <br>
 </h1>
 
-<p align="center">A open-source tool to find publicly avaible sensitive information about Companies/Organisations!</p>
+<p align="center">A open-source tool to find publicly available sensitive information about Companies/Organisations!</p>
 
 # WebDork
  A Python tool to automate some dorking stuff to find information disclosures.
