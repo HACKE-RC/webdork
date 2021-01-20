@@ -85,7 +85,7 @@ optional arguments:
 
 ### Example usage:
 ```bash
-webdork -cn Hackerone --bw --show -v -o output.txt
+webdork -cn Hackerone -bw --show -v -o output.txt
 ```
 
 ## Arguments :
