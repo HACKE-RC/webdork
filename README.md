@@ -35,7 +35,7 @@ Python 3.9.0
 ```
 or any version greater than or equal to 3.9, this script has been tested and confirmed to be supported.
 
-## Installion
+## Installation
 
 ### For termux
 ```bash
