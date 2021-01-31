@@ -127,7 +127,7 @@ siteprefix = "site:"
 
 domains = ["codepad.co", "scribd.com", "npmjs.com", "npm.runkit.com", "libraries.io", "ycombinator.com", "coggle.it",
            "papaly.com", "trello.com", "prezi.com", "jsdelivr.net", "codepen.io", "codeshare.io", "sharecode.io",
-           "pastebin.com", "repl.it", "productforums.google.com", "gitter.im", "bitbucket.org", "*.atlassian.net"]
+           "pastebin.com", "repl.it", "productforums.google.com", "gitter.im", "bitbucket.org", "*.atlassian.net", "*.jira.com"]
 
 inurlprefix = "inurl:"
 
