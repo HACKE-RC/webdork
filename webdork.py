@@ -47,7 +47,7 @@ class Scanner:
         if args.verbose:
             print(f"[v] Opening the dork {dork} results in browser. [v]")
         webbrowser.open(dork)
-        time.sleep(3)
+        time.sleep(4)
         return
 
     @staticmethod
