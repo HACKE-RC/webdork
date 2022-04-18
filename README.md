@@ -1,16 +1,13 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/HACKE-RC/webdork"><img src="https://beeimg.com/images/l09057016821.png" alt="webdork" width="300" height="280"></a>
-  <br>
   WebDork v1.0.3
   <br>
 </h1>
 
-<p align="center">A open-source tool to find publicly available sensitive information about Companies/Organisations!</p>
+<p align="center">A open-source tool to find publicly available sensitive information about Companies and Organisations!</p>
 
 # WebDork
- A Python tool to automate some dorking stuff to find information disclosures.
- Suggestions and issues are welcome because I know codes can never be perfect.
+A Python tool to automate some dorking stuff to find information disclosures.
 
 ## Note:
 > ## As a user of this tool you agree this terms:
@@ -21,7 +18,7 @@
 
 ### Example finds:
 - Backend related information.
-- Company's/Orgnisation's future/internal plans/mindmaps.
+- Company's or Orgnisation's internal plans, mindmaps, etc.
 - Internal tools.
 
 ## Compatibility
@@ -110,4 +107,3 @@ webdork -cn Hackerone -bw --show -v -o output.txt
 
 - https://youtu.be/JCReY9O5oTk
 
-**Made with so much debugging by [RC](https://twitter.com/coder_rc)**
