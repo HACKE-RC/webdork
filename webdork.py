@@ -154,14 +154,6 @@ for inurlkeyword in inurlkeywords:
 del inurlprefix
 del inurlkeywords
 
-random_phrases = ["[i] Bug hunter has joined the chat! [i]", "[i] Follow @coder_rc on twitter [i]", "[i] Follow @resethacker on twitter [i]",
-r"[i] Fun fact: 80% of NASA rockets are made in HTML [i]", "[i] Fun fact: This tool was once a private tool! [i]", "[i] Join resethacker on telegram: t.me/resethacker [i]",
-"[i] Fun fact: CSRFs are dying... [i]", "[i] I have made other tools also. Check here: https://github.com/HACKE-RC [i]", "[i] Great finds take time! [i]",
-"[i] Fun fact: Even aditya shende and todayisnew gets duplicate and informative [i]",
-"[i] According to bugcrowd India is the factory of bug hunters [i]"]
-if not args.silent:
-    print(random_phrases[randint(0, len(random_phrases)-1)])
-
 for dork in dorkscontainer:
     if args.browser:
         Scanner.browseropen(args, dork)
