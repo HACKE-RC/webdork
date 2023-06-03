@@ -1,13 +1,13 @@
 <h1 align="center">
   <br>
-  WebDork v1.0.3
+  WebDork
   <br>
 </h1>
 
 <p align="center">An open-source tool to find publicly available sensitive information about Companies and Organisations!</p>
 
 # WebDork
-A Python tool to automate some dorking stuff to find information disclosures.
+A Python tool to automate search for information disclosures.
 
 ## Note:
 > ## As a user of this tool you agree to the following terms:
