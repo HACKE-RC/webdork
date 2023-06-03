@@ -14,7 +14,7 @@ A Python tool to automate some dorking stuff to find information disclosures.
 > **I shall never use this tool for anything unethical.**  
 > **I will not disclose any information found by this tool.**
 
-**Not all results found by this tool are sensitive information. If you find any information using this tool you must verify it by yourself and check whether the information can really cause any major/minor harm to A company.**
+**Not all results found by this tool are sensitive information. If you find any information using this tool you must verify it by yourself and check whether the information can really cause any major/minor harm.**
 
 ### Example finds:
 - Backend related information.
