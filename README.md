@@ -4,15 +4,15 @@
   <br>
 </h1>
 
-<p align="center">A open-source tool to find publicly available sensitive information about Companies and Organisations!</p>
+<p align="center">An open-source tool to find publicly available sensitive information about Companies and Organisations!</p>
 
 # WebDork
 A Python tool to automate some dorking stuff to find information disclosures.
 
 ## Note:
-> ## As a user of this tool you agree this terms:
-> **I will not use it for any blackhat/unethical work**  
-> **I will not disclose any information found by this tool**
+> ## As a user of this tool you agree to the following terms:
+> **I shall never use this tool for anything unethical.**  
+> **I will not disclose any information found by this tool.**
 
 **Not all results found by this tool are sensitive information. If you find any information using this tool you must verify it by yourself and check whether the information can really cause any major/minor harm to A company.**
 
