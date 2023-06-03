@@ -194,6 +194,4 @@ if args.show:
 del dorkscontainer
 del all_links
 
-if not args.silent:
-    print("\n")
-    print(random_phrases[randint(0, len(random_phrases)-1)])
+
