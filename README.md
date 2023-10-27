@@ -101,7 +101,7 @@ webdork -cn Hackerone -bw --show -v -o output.txt
 - [aks1337](https://github.com/aksl337) for pull request.
 - [Akash Chhabra](https://github.com/hackingguy) for pull request.
 
-**If you like my work consider contacting me on Twitter @coder_rc for donation related information.**
+**If you like my work consider contacting me on Twitter @rcx86 for donation related information.**
 
 ## Demonstrative Video:
 
