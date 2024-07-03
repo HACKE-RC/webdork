@@ -95,7 +95,8 @@ webdork -cn Hackerone -bw --show -v -o output.txt
 - Better output : -v, --verbose
 - Directly save the results without printing anything : -s, --silent
 - Do not save the result in any file : --no-save-output
-- If you don't wanna get blocked by the web server : --proxy 
+- Use proxy : --proxy
+  
 ### Shoutout :
 - [Ahsan khan](https://twitter.com/hunter0x7) for [this tweet](https://twitter.com/hunter0x7/status/1334818003179933696?s=20).
 - [TheSpeedX](https://twitter.com/The_SpeedX) for writing docs of Tbomb in such a amazing way!. I copied some stuff from his docs about TBomb.
