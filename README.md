@@ -65,6 +65,7 @@ sudo python3 setup.py
 ```bash
 webdork -h
 usage: main.py [-h] -cn Company name [-bw] [--show] [-o Output] [-v] [-s] [--no-save-output]
+[--proxy]
 
 A python tool to automatically dork on a given company\'s name.
 
@@ -78,6 +79,7 @@ optional arguments:
   -v, --verbose         Turn verbose mode on.
   -s, --silent          Just save the results without printing anything.
   --no-save-output      Don\'t save the output in file.
+  --proxy               Assign <addresss>:<port> for proxy so that you wont get blocked by the server.
 ```
 
 ### Example usage:
@@ -93,7 +95,7 @@ webdork -cn Hackerone -bw --show -v -o output.txt
 - Better output : -v, --verbose
 - Directly save the results without printing anything : -s, --silent
 - Do not save the result in any file : --no-save-output
-
+- If you don't wanna get blocked by the web server : --proxy 
 ### Shoutout :
 - [Ahsan khan](https://twitter.com/hunter0x7) for [this tweet](https://twitter.com/hunter0x7/status/1334818003179933696?s=20).
 - [TheSpeedX](https://twitter.com/The_SpeedX) for writing docs of Tbomb in such a amazing way!. I copied some stuff from his docs about TBomb.
