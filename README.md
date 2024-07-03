@@ -65,6 +65,7 @@ sudo python3 setup.py
 ```bash
 webdork -h
 usage: main.py [-h] -cn Company name [-bw] [--show] [-o Output] [-v] [-s] [--no-save-output]
+[--proxy]
 
 A python tool to automatically dork on a given company\'s name.
 
@@ -78,6 +79,7 @@ optional arguments:
   -v, --verbose         Turn verbose mode on.
   -s, --silent          Just save the results without printing anything.
   --no-save-output      Don\'t save the output in file.
+  --proxy               Assign <addresss>:<port> for proxy so that you wont get blocked by the server.
 ```
 
 ### Example usage:
