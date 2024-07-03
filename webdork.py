@@ -3,6 +3,7 @@
 # Author : HACKE-RC commonly known as RC;
 # Description : WebDork by RC - A python tool to automate some google dorking stuff to find information disclosures.
 # Developer contact: @coder_rc on twitter. You can request new feature by tagging me on any of your tweet.
+# Proxy integration is by me (ka1hatsu)
 
 #Importing modules
 from os import access
@@ -116,6 +117,8 @@ parser.add_argument("-v", "--verbose", help="Turn verbose mode on.", action="sto
 parser.add_argument("-s", "--silent", help="Just save the results without printing anything.", action="store_true")
 parser.add_argument("--no-save-output", help="Don\'t save the output in file.", action="store_true")
 args = parser.parse_args()
+parser.add_argument("--proxy", type=str, help="Specify proxy address and port as <address>:<port>")
+args = parser.parse_args()
 
 results_file = open("dorkresults.txt", "a")
 
@@ -123,7 +126,14 @@ if args.verbose and args.silent:
     print("[ ERR ] Verbose and Silent mode can\'t be turned on at same time. [ ERR ]\nTry:\n\tRemoving the -v "
           "/--verbose or -s/--silent switch.")
     exit(2)
-
+    
+    proxies = None
+if args.proxy:
+    proxies = {
+        'http': f'http://{args.proxy}',
+        'https': f'https://{args.proxy}'
+    }
+    
 siteprefix = "site:"
 
 domains = ["codepad.co", "scribd.com", "npmjs.com", "npm.runkit.com", "libraries.io", "ycombinator.com", "coggle.it",
@@ -166,7 +176,7 @@ for dork in dorkscontainer:
     headers = {'user-agent': Scanner.getuseragent()}
     dork = dork.replace(" ", "+").replace(":", r"%3A")
     url = f"https://www.google.com/search?q={dork}"
-    r = requests.get(url, headers=headers)
+    r = requests.get(url, headers=headers, proxies=proxies)
     soup = BeautifulSoup(r.text, 'html.parser')
     anc = soup.find_all('a')
     for link in anc:
@@ -181,8 +191,8 @@ for dork in dorkscontainer:
                     all_links.append(_link)     
             except:
                 pass
-    
-
+    except requests.exceptions.RequestException as e:
+        print(f"Error occurred: {e}")
 all_links = Scanner.filtergoogle(all_links)
 
 if not args.no_save_output:
